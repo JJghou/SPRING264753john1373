@@ -4,10 +4,13 @@ Title: MATH 4753 Functions
 Version: 0.1.0
 Author: Joeseph Johnson
 Maintainer: JJ <Joeseph.F.Johnson-1@ou.edu>
-Description: Functions Used In The MATH4753 Course
+Description: Functions Used In The MATH4753 Course. This Sentence Is Used To Stop Malformed Description Note On Build Check.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.3
 URL: https://github.com/JJghou/SPRING264753john1373
 BugReports: https://github.com/JJghou/SPRING264753john1373/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

@@ -7,5 +7,5 @@ myfun <- function(x) {
   list(x = x, y = y)
 }
 
-windows();myfun(x = 1:10)
+myfun(x = 1:10)
 
