@@ -23,4 +23,5 @@ Scatter Histogram
 }
 \examples{
 \dontrun{with(ddt, scatterhist(LENGTH,WEIGHT, xlab="LENGTH"))}
+
 }

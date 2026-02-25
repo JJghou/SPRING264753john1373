@@ -8,6 +8,7 @@
 #' @export
 #'
 #' @examples 1
+#'
 mysd <- function(x, na.rm = TRUE) {
     if(na.rm) {
       x <- x[!is.na(x)]

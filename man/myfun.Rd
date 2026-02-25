@@ -16,5 +16,6 @@ Plot Of x Vs y, Where y Is X^2
 My Example Function
 }
 \examples{
-1
+\dontrun{myfun(x = 1:10)}
+
 }

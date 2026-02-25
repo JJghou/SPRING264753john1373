@@ -19,4 +19,5 @@ My Standard Deviation Function
 }
 \examples{
 1
+
 }
