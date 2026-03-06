@@ -25,7 +25,7 @@ mybin = function(iter=100, n=10, p=0.7){ #iter=iterations,n=sample size,p=probab
   succ.tab = table(factor(succ,levels=0:n))
 
   #Make a barplot of the proportions
-  barplot(succ.tab/(iter), col=rainbow(n+1), main="Binomial simulation", xlab="Number of successes")
+  barplot(succ.tab/(iter), main="Binomial simulation", xlab="Number of successes")
   succ.tab/iter
 }
 
