@@ -15,7 +15,7 @@
 #' #' \dontrun{myncurve(mu=10,sigma=5,a=6)}
 #'
 myncurve = function(mu, sigma, a){
-  curve(dnorm(x=a,mean=mu,sd=sigma), xlim=c(mu-3*sigma, mu+3*sigma))
+  curve(dnorm(x,mean=mu,sd=sigma), xlim=c(mu-3*sigma, mu+3*sigma))
   list(mu = mu, sigma = sigma, a = a)
   xcurve=seq(a,length=1000) #Find Area Under Curve
   ycurve=dnorm(xcurve,mean=mu,sd=sigma)
