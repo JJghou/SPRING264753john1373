@@ -16,8 +16,8 @@
 #' @export
 #'
 #' @examples
-#'\dontrun{myboot2(iter=10000,sample=x,fun="mean",alpha=0.05)}
-myboot2<-function(iter=10000,x=1,fun="mean",alpha=0.05,cx=1.5,...){  #Notice where the ... is repeated in the code
+#'\dontrun{myboot2(iter=10000,sample=x,fun="mean",alpha=0.05,cx=1.5,...)}
+myboot2<-function(iter=10000,x,fun="mean",alpha=0.05,cx=1.5,...){  #Notice where the ... is repeated in the code
   n=length(x)   #sample size
   y=sample(x,n*iter,replace=TRUE)
   rs.mat=matrix(y,nrow=n,ncol=iter,byrow=TRUE)

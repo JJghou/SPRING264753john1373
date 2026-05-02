@@ -4,7 +4,7 @@
 \alias{myboot2}
 \title{myboot2}
 \usage{
-myboot2(iter = 10000, x = 1, fun = "mean", alpha = 0.05, cx = 1.5, ...)
+myboot2(iter = 10000, x, fun = "mean", alpha = 0.05, cx = 1.5, ...)
 }
 \arguments{
 \item{iter}{iterations}
@@ -26,5 +26,5 @@ Plot
 myboot2
 }
 \examples{
-\dontrun{myboot2(iter=10000,sample=x,fun="mean",alpha=0.05)}
+\dontrun{myboot2(iter=10000,sample=x,fun="mean",alpha=0.05,cx=1.5,...)}
 }

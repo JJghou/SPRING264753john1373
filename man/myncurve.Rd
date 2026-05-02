@@ -20,6 +20,6 @@ Curve And Probability
 Normal Probability Curve
 }
 \examples{
-#' \dontrun{myncurve(mu=10,sigma=5,a=6)}
+\dontrun{myncurve(mu=10,sigma=5,a=6)}
 
 }
