@@ -18,6 +18,6 @@ Standard Deviation Of The Numeric Vector
 My Standard Deviation Function
 }
 \examples{
-1
+\dontrun{1}
 
 }

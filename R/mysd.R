@@ -7,7 +7,8 @@
 #' @returns Standard Deviation Of The Numeric Vector
 #' @export
 #'
-#' @examples 1
+#' @examples
+#' \dontrun{1}
 #'
 mysd <- function(x, na.rm = TRUE) {
     if(na.rm) {

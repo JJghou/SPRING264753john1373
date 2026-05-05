@@ -3,8 +3,8 @@
 #' @param iter iterations
 #' @param x sample
 #' @param fun fun
-#' @param alpha 1-%confidence
-#' @param cx size
+#' @param alpha 1- percent confidence
+#' @param cx Size
 #' @param ... additional arguments
 #'
 #' @importFrom graphics abline
@@ -16,7 +16,8 @@
 #' @export
 #'
 #' @examples
-#'\dontrun{myboot2(iter=10000,sample=x,fun="mean",alpha=0.05,cx=1.5,...)}
+#' \dontrun{myboot2(iter=10000,sample=x,fun="mean",alpha=0.05,cx=1.5,...)}
+#'
 myboot2<-function(iter=10000,x,fun="mean",alpha=0.05,cx=1.5,...){  #Notice where the ... is repeated in the code
   n=length(x)   #sample size
   y=sample(x,n*iter,replace=TRUE)

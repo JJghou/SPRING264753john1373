@@ -13,7 +13,7 @@
 #' @export
 #'
 #' @examples
-#'\dontrun{mycltu(n=5,iter=10000)}
+#' \dontrun{mycltu(n=5,iter=10000)}
 #'
 mycltu=function(n,iter,a=0,b=10){
   ## r-random sample from the uniform

@@ -13,9 +13,9 @@ myboot2(iter = 10000, x, fun = "mean", alpha = 0.05, cx = 1.5, ...)
 
 \item{fun}{fun}
 
-\item{alpha}{1-%confidence}
+\item{alpha}{1- percent confidence}
 
-\item{cx}{size}
+\item{cx}{Size}
 
 \item{...}{additional arguments}
 }
@@ -27,4 +27,5 @@ myboot2
 }
 \examples{
 \dontrun{myboot2(iter=10000,sample=x,fun="mean",alpha=0.05,cx=1.5,...)}
+
 }
